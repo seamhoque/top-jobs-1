@@ -25,7 +25,7 @@
                 <a class="nav-link" href="#">Packeges</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Login</a>
+                <a class="nav-link" href="{{ url('login_register/login') }}">Login</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">Logout</a>

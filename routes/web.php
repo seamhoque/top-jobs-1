@@ -21,9 +21,7 @@ Route::get('/packages', function(){
 Route::get('/login', function(){
     return view('login_register/login');
 });
-
-
-// End
+// End //////////////////////////////////////
 
 // Group B
 // End
