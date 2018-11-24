@@ -22,7 +22,10 @@
                 <a class="nav-link" href="#">Contact us</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Login</a>
+                <a class="nav-link" href="{{ url('/packages') }}">Packeges</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="{{ url('/login') }}">Login</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">Logout</a>
