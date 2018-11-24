@@ -16,6 +16,7 @@ Route::view('/', 'welcome');
 // Group A
 
 // Group B
+Route::get('jobs', 'Jobs\JobController@index');
 
 // Group C
 
