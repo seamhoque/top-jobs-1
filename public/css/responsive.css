@@ -1,0 +1,80 @@
+
+/* Medium layout :1280px. */
+@media only screen and (min-width:992px) and (max-width:1200px) {
+
+}
+
+
+
+/* Tablet layout :768px. */
+@media only screen and (min-width:768px) and (max-width:991px) {
+    .how-to::before {
+        display:none!important;
+    }
+    .how-to:nth-child(n+2)::before {
+        display:none!important;
+    }
+}
+
+
+/* Mobile layout :320px. */
+@media only screen and (max-width:767px) {
+    .navbar {
+        position: relative;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -ms-flex-align: center;
+        align-items: center;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        padding: .5rem 1rem!important;
+    }
+    .how-to-sec {
+        display: inline-block;
+    }
+    .how-to {
+        display: inline-block;
+        float: left;
+        width: 100%;
+        padding: 0;
+        margin-bottom: 40px;
+    }
+    .how-to:last-child {
+        margin: 0;
+    }
+    .how-to::before {
+        display:none!important;
+    }
+    .how-to:nth-child(n+2)::before {
+        display:none!important;
+    }
+}
+
+/* Wide mobile layout :480px. */
+@media only screen and (min-width:480px) and (max-width:767px) {
+    .navbar {
+        position: relative;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -ms-flex-align: center;
+        align-items: center;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        padding: .5rem 1rem!important;
+    }
+    .how-to::before {
+        position: absolute;
+        left: 50%;
+        top: 60px;
+        width: 270px;
+        height: 36px;
+        /* background-image: url(../img/line1.png); */
+        content: "";
+        z-index: 1;
+        margin-left: 51px;
+    }
+}
