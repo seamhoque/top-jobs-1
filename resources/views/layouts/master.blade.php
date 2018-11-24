@@ -18,6 +18,7 @@
 
     <!-- Global stylesheets -->
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/main.css') }}">
     <!-- /Global stylesheets -->
 
     <!-- Custom Styles -->
@@ -51,6 +52,12 @@
             @yield('content')
         </div>
         <!-- End Page Container -->
+
+        <!-- Footer -->
+        @section('footer')
+            @include('layouts.components.footer')
+        @show
+        <!-- End Footer -->
 
     </div>
 

@@ -11,14 +11,20 @@
 |
 */
 
-Route::view('/', 'welcome');
+Route::get('/', 'WelcomeController@index');
 
 // Group A
+
 Route::get('/packages', function(){
     return view('packages');
 });
+
 // Group B
+// End
 
 // Group C
+Route::get('employers', 'EmployerController@index')->name('employers.index');
+// End
 
 // Group D
+// End
