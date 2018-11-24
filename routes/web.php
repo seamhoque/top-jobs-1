@@ -14,7 +14,9 @@
 Route::view('/', 'welcome');
 
 // Group A
-
+Route::get('/packages', function(){
+    return view('packages');
+});
 // Group B
 
 // Group C
