@@ -4,6 +4,7 @@
 
 @section('content')
 
+
     <!-- Section Home -->
     @include('welcome.components.section-home')
 

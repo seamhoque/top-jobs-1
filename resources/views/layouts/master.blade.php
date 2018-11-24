@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="{{ asset('img/favicon.png') }}" type="image/x-icon">
@@ -35,6 +36,11 @@
 <body @section('body-attrs') @show>
 
     <div id="app">
+        <!-- Action bar -->
+    @section('actionbar')
+        @include('layouts.components.actionbar')
+    @show
+    <!-- End Action bar -->
 
         <!-- Navbar -->
         @section('navbar')
