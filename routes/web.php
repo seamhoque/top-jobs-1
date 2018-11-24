@@ -12,3 +12,11 @@
 */
 
 Route::view('/', 'welcome');
+
+// Group A
+
+// Group B
+
+// Group C
+
+// Group D
