@@ -25,7 +25,8 @@ Route::get('/login', function(){
 // End //////////////////////////////////////
 
 // Group B
-// End
+
+// Ends
 
 // Group C
 Route::get('employers', 'EmployerController@index')->name('employers.index');
