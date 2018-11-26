@@ -30,6 +30,7 @@ Route::get('/login', function(){
 
 // Group C
 Route::get('employers', 'EmployerController@index')->name('employers.index');
+Route::get('employers/show', 'EmployerController@show')->name('employers.show');
 // End
 
 // Group D
