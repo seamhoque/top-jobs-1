@@ -1,13 +1,49 @@
 
 /* Medium layout :1280px. */
 @media only screen and (min-width:992px) and (max-width:1200px) {
-
+    /*--Action Bar start--*/
+    #action_bar_right {
+        text-align: center;
+        height: 50px;
+        padding: 6px;
+        background: transparent;
+        position: relative;
+    }
+    /*--Action Bar End--*/
 }
 
 
 
 /* Tablet layout :768px. */
 @media only screen and (min-width:768px) and (max-width:991px) {
+    /*--Action Bar start--*/
+    #action_bar_left>h4 {
+        text-align: center;
+        line-height: 1.0;
+        font-size: 13px!important;
+        font-weight: 400!important;
+    }
+    #action_bar_right>.social_icon>i {
+        font-weight:900;
+        color:#f6f6f6;
+        height:34px;
+        text-align:center;
+        padding:9px;
+        width:35px;
+        background: #083c3594;
+        /* padding: 11px; */
+        border-radius: 50%;
+    }
+    #action_bar_right {
+        text-align: center;
+        height: 50px;
+        padding: 7px;
+        background: transparent;
+        position: relative;
+    }
+    /*--Action Bar End--*/
+
+
     .how-to::before {
         display:none!important;
     }
@@ -19,6 +55,33 @@
 
 /* Mobile layout :320px. */
 @media only screen and (max-width:767px) {
+    /*--Action Bar start--*/
+    #action_bar_left>h4 {
+        text-align: center;
+        line-height: 1.0;
+        font-size: 12px!important;
+        font-weight: 400!important;
+    }
+    #action_bar_left {
+        height:31px;
+        padding:8px;
+        position:relative;
+        background:transparent;
+    }
+    #action_bar_right>.social_icon>i {
+        font-weight: 900;
+        color: #f6f6f6;
+        font-size: 14px;
+        height: 32px;
+        text-align: center;
+        padding: 9px;
+        width: 33px;
+        background: #083c3594;
+        /* padding: 11px; */
+        border-radius: 50%;
+    }
+    /*--Action Bar End--*/
+
     .navbar {
         position: relative;
         display: -ms-flexbox;
@@ -54,6 +117,56 @@
 
 /* Wide mobile layout :480px. */
 @media only screen and (min-width:480px) and (max-width:767px) {
+    /*--Action Bar start--*/
+    .action_bar {
+        background: #12a5b0f5;
+        min-width: 100%;
+        min-height: 50px;
+        position: relative;
+    }
+    #action_bar_left{
+        height: 50px;
+        position:relative;
+        background:transparent;
+    }
+    #action_bar_left>h4 {
+        text-align: center;
+        line-height: 1.0;
+        font-size: 12px!important;
+        font-weight: 400!important;
+    }
+    #action_bar_right{
+        height: 50px;
+        background:transparent;
+        position: relative;
+    }
+    #action_bar_right>.social_icon{
+        top:50%;
+        position: absolute;
+        display:block;
+        left:50%;
+        letter-spacing: 2px;
+        transform:translate(-50%,-50%);
+    }
+    #action_bar_right>.social_icon>i {
+        font-weight: 900;
+        color: #f6f6f6;
+        background: #083c3594;
+        padding: 9px;
+        border-radius: 50%;
+    }
+    #action_bar_right>.social_icon>i:hover {
+        font-weight: 900;
+        color:white;
+        background:red;
+        font-size:17px;
+        padding: 10px;
+        border: 2px solid #828175;
+        border-radius: 50%;
+    }
+    /*--Action Bar End--*/
+
+    /*--navbar Start--*/
     .navbar {
         position: relative;
         display: -ms-flexbox;
@@ -66,6 +179,7 @@
         justify-content: space-between;
         padding: .5rem 1rem!important;
     }
+    /*--nabvar End--*/
     .how-to::before {
         position: absolute;
         left: 50%;
