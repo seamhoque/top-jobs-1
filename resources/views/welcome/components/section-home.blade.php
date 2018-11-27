@@ -20,17 +20,7 @@
                                     <input type="text" placeholder="Keywords"/>
                                 </div>
                             </div>
-                            <div class="col-lg-3 col-md-3 col-sm-4">
-                                <div class="job-field">
-                                    <select id="">
-                                        <option value="hide">--All Regions--</option>
-                                        <option value="Istanbul" rel="icon-temperature">Istanbul</option>
-                                        <option value="New York">New York</option>
-                                        <option value="London">London</option>
-                                        <option value="Russia">Russia</option>
-                                    </select>
-                                </div>
-                            </div>
+
                             <div class="col-lg-3 col-md-3 col-sm-4">
                                 <div class="job-field">
                                     <select class="">
