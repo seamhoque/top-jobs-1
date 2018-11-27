@@ -1,6 +1,97 @@
 body{
     background:#efefef;
 }
+/*---OUTLINE BUTTONS---*/
+
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    padding: 10px 16px;
+}
+.btn-lg {
+    font-size:16px;
+    line-height: 1.33;
+    border-radius: 6px;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #428bca;
+    border-color: #357ebd;
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: #3276b1;
+    border-color: #285e8e;
+}
+.btn-outline-secondary {
+    color: #ffffff!important;
+    background-color:#eee9e926;
+    background-image:none;
+    border-color: #6c757d;
+}
+
+  /*---OUTLINE BUTTONS---*/
+
+
+.btn.outline {
+    background: none;
+    padding: 4px 18px;
+}
+.btn-primary.outline {
+    border: 2px solid #ffffff;
+    color: #ffffff;
+}
+.btn-primary.outline:hover, .btn-primary.outline:focus, .btn-primary.outline:active, .btn-primary.outline.active, .open > .dropdown-toggle.btn-primary {
+    color:#ffffff;
+    border-color:#F44336!important;
+}
+.btn-primary.outline:active, .btn-primary.outline.active {
+    color: #fff;
+    background-color: #f0f2f33b;
+    box-shadow: none;
+}
+.btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    color:#fff;
+    background-color: #ffffff2e!important;
+    border-color: #1f6fb2!important;
+    font-family:Raleway;
+}
+.btn-outline-secondary:not(:disabled):not(.disabled):active, .show>.btn-outline-secondary.dropdown-toggle {
+    color: #fff;
+    background-color: #dadddf9e;
+    border-color: #b9abaf;
+}
+
+
+/***********************
+  CUSTOM BTN VALUES
+************************/
+
+.btn {
+    padding: 7px 24px;
+    border: 0 none;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.btn:focus, .btn:active:focus, .btn.active:focus {
+    outline: 0 none;
+}
 .nopad{
     padding-right:0px!important;
     padding-left:0px!important;
@@ -9,6 +100,7 @@ body{
     margin-right: 0px!important;
     margin-left:0px!important;
 }
+
 /*--Action Bar Section Start---*/
 .action_bar {
     background: #12a5b0f5;
@@ -16,56 +108,76 @@ body{
     min-height: 50px;
     position: relative;
 }
-#action_bar_left{
+#action_bar_left {
     height: 50px;
-    position:relative;
-    background:transparent;
+    padding: 13px;
+    position: relative;
+    background: transparent;
 }
-#action_bar_left>.action_bar_left_main{
-    top: 50%;
-    left:49%;
-    position:absolute;
-    transform: translate(-49%,-50%);
-}
-#action_bar_left>action_bar_left_main>h4{
+#action_bar_left>h4{
     text-align: center;
     line-height: 1.0;
     font-size:14px!important;
     font-weight: 400!important;
-
 }
-#action_bar_right{
-    height: 50px;
-    background:transparent;
+#action_bar_right {
+    text-align: center;
+    height:50px;
+    padding:5px;
+    background: transparent;
     position: relative;
-}
-#action_bar_right>.social_icon{
-    top:50%;
-    position: absolute;
-    display:block;
-    left:50%;
-    letter-spacing: 2px;
-    transform:translate(-50%,-50%);
 }
 #action_bar_right>.social_icon>i {
     font-weight: 900;
     color: #f6f6f6;
+    height: 38px;
+    text-align: center;
+    padding: 12px;
+    width: 40px;
     background: #083c3594;
-    padding: 9px;
+    /* padding: 11px; */
     border-radius: 50%;
 }
 #action_bar_right>.social_icon>i:hover {
     font-weight: 900;
-    color:white;
-    background:red;
-    font-size:17px;
+    height: 40px;
+    text-align: center;
     padding: 10px;
+    width: 41px;
+    color: white;
+    background: red;
+    font-size: 17px;
     border: 2px solid #828175;
     border-radius: 50%;
 }
 /*--Action Bar Section End---*/
 
+
 /*--Nab bar Start--*/
+
+#settings{
+    padding-left: 8px!important;
+}
+.manu_bar{
+    background:red;
+    min-height:50px;
+}
+.logo{
+    width:8%;
+}
+.nav-link{
+    color:white!important;
+    nt-size: 16px!important;
+    font-weight:500!important;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0,0,0,.5);
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color:black!important;
+}
 .navbar {
     position: relative;
     display: -ms-flexbox;
@@ -87,6 +199,7 @@ body{
 .navbar-light .navbar-nav .show>.nav-link {
     color: rgba(255, 255, 255, 0.9)!important;
 }
+
 /*--Nab bar End--*/
 
 /*footer*/
