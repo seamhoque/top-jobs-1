@@ -25,7 +25,7 @@ Route::get('/login', function(){
 // End //////////////////////////////////////
 
 // Group B
-
+Route::get('jobs', 'Jobs\JobController@postJob')->name('jobs.postJob');
 // Ends
 
 // Group C

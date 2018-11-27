@@ -7,5 +7,8 @@ use App\Http\Controllers\Controller;
 
 class JobController extends Controller
 {
+public function postJob(){
 
+    return view('jobs.postJob');
+}
 }
