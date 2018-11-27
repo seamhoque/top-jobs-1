@@ -14,6 +14,13 @@
 Route::get('/', 'WelcomeController@index');
 
 // Group A
+Route::get('/packages', function(){
+    return view('packages');
+});
+
+Route::get('/login', function(){
+    return view('login_register/login');
+});
 
 Route::get('/packages', function(){
     return view('packages');
