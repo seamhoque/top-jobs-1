@@ -23,8 +23,15 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#">Employees</a>
                 </li>
+
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contact-Us</a>
+                    <a class="nav-link" href="#">Login In</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Login Out</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Register</a>
                 </li>
             </ul>
         </div>

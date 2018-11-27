@@ -21,14 +21,18 @@ body{
     position:relative;
     background:transparent;
 }
-#action_bar_left>h4{
+#action_bar_left>.action_bar_left_main{
     top: 50%;
     left:49%;
-    line-height: 1.0;
     position:absolute;
+    transform: translate(-49%,-50%);
+}
+#action_bar_left>action_bar_left_main>h4{
+    text-align: center;
+    line-height: 1.0;
     font-size:14px!important;
     font-weight: 400!important;
-    transform: translate(-49%,-50%);
+
 }
 #action_bar_right{
     height: 50px;

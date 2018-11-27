@@ -54,6 +54,59 @@
 
 /* Wide mobile layout :480px. */
 @media only screen and (min-width:480px) and (max-width:767px) {
+    /*--Action Bar start--*/
+    .action_bar {
+        background: #12a5b0f5;
+        min-width: 100%;
+        min-height: 50px;
+        position: relative;
+    }
+    #action_bar_left{
+        height: 50px;
+        position:relative;
+        background:transparent;
+    }
+    #action_bar_left>h4{
+        top: 50%;
+        left:49%;
+        line-height: 1.0;
+        position:absolute;
+        font-size:14px!important;
+        font-weight: 400!important;
+        transform: translate(-49%,-50%);
+    }
+    #action_bar_right{
+        height: 50px;
+        background:transparent;
+        position: relative;
+    }
+    #action_bar_right>.social_icon{
+        top:50%;
+        position: absolute;
+        display:block;
+        left:50%;
+        letter-spacing: 2px;
+        transform:translate(-50%,-50%);
+    }
+    #action_bar_right>.social_icon>i {
+        font-weight: 900;
+        color: #f6f6f6;
+        background: #083c3594;
+        padding: 9px;
+        border-radius: 50%;
+    }
+    #action_bar_right>.social_icon>i:hover {
+        font-weight: 900;
+        color:white;
+        background:red;
+        font-size:17px;
+        padding: 10px;
+        border: 2px solid #828175;
+        border-radius: 50%;
+    }
+    /*--Action Bar End--*/
+
+    /*--navbar Start--*/
     .navbar {
         position: relative;
         display: -ms-flexbox;
@@ -66,6 +119,7 @@
         justify-content: space-between;
         padding: .5rem 1rem!important;
     }
+    /*--nabvar End--*/
     .how-to::before {
         position: absolute;
         left: 50%;
