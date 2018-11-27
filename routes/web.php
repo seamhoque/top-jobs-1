@@ -39,6 +39,7 @@ Route::get('jobs','Jobs\JobController@index')->name('jobs.index');
 
 // Group C
 Route::get('employers', 'EmployerController@index')->name('employers.index');
+Route::get('employers/show', 'EmployerController@show')->name('employers.show');
 // End
 
 // Group D

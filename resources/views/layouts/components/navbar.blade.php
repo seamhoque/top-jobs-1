@@ -2,7 +2,7 @@
 <div class="manu_bar">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-lg-12 col-md-6 col-sm-6 col-xs-12 nopad">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 nopad">
                 <nav class="navbar navbar-expand-lg navbar-light bg-light1">
                     <img class="logo" src="img/lg.png" alt="">
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
@@ -10,7 +10,7 @@
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
-                        <ul class="navbar-nav pull-right">
+                        <ul  id="menusection" class="navbar-nav pull-right">
                             <li class="nav-item active">
                                 <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                             </li>
@@ -80,15 +80,5 @@
         </div>
     </div>
 </div>
-
-
-
-
-
-
-
-
-<div class="col-lg-12 col-md-6 col-sm-6 col-xs-12 nopad">
-
 </div>
 <!---Nav bar End--->
