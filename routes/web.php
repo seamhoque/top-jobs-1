@@ -22,9 +22,11 @@ Route::get('/packages', function(){
 Route::get('/login', function(){
     return view('login_register/login');
 });
-// End //////////////////////////////////////
+// End
 
 // Group B
+
+Route::get('jobs','Jobs\JobController@index')->name('jobs.index');
 
 // Ends
 
