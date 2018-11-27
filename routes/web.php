@@ -25,17 +25,9 @@ Route::get('/login', function(){
 // End
 
 // Group B
-<<<<<<< HEAD
-Route::get('jobs', 'Jobs\JobController@jobDescrip')->name('jobs.jobDescrip');
-=======
-<<<<<<< HEAD
-Route::get('jobs', 'Jobs\JobController@postJob')->name('jobs.postJob');
-=======
-
+Route::get('description', 'Jobs\JobController@jobDescrip')->name('jobs.jobDescrip');
+Route::get('postjob', 'Jobs\JobController@postJob')->name('jobs.postJob');
 Route::get('jobs','Jobs\JobController@index')->name('jobs.index');
-
->>>>>>> 67a3a58cf9def1e5a2ec68d6df08c9f4b3f59450
->>>>>>> cef20076c9cf1bc52805aec225e73ece9bd7d5c4
 // Ends
 
 // Group C

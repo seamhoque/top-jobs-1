@@ -1,53 +1,21 @@
 @extends('layouts.master')
 
-    @section('title','Jobs')
-        <!DOCTYPE html>
-<html lang="{{ app()->getLocale() }}">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Raleway:200,100,400" rel="stylesheet" type="text/css"/>
-    <!-- Favicon -->
-    <link rel="shortcut icon" href="{{ asset('img/favicon.png') }}" type="image/x-icon">
+@section('title','Jobs')
 
-
-
-
-
-    <!-- Global stylesheets -->
-    <link rel="stylesheet" href="{{ asset('css/app.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/main.css') }}">
-    <link rel="stylesheet" href="{{asset('css/responsive.css')}}">
-    <!-- /Global stylesheets -->
-
-
-
-
-
-
-</head>
-
-
-
-    <!-- Action bar -->
-@section('actionbar')
-    @include('layouts.components.actionbar')
-@show
-<!-- End Action bar -->
-
-    <!-- Navbar -->
-@section('navbar')
-    @include('layouts.components.navbar')
-@show
-<!-- End Navbar -->
-
+@push('styles')
+    <style>
+        .mb-3:hover {
+            transform: scale(1.05);
+            animation-duration: .5s;
+            background-color: honeydew;
+        }
+    </style>
+@endpush
 
 
     <!-- Page Container -->
 
-        @yield('content')
+@section('content')
     <div class="jumbotron jumbotron-fluid">
         <div class="container">
             <h1 class="font-weight-bold" align="center">Jobs</h1>
@@ -364,7 +332,6 @@
         </ul>
     </div>
 </div>
-
-
-
+@stop
         <!-- End Page Container -->
+
