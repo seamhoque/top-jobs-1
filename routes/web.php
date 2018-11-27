@@ -22,10 +22,16 @@ Route::get('/packages', function(){
 Route::get('/login', function(){
     return view('login_register/login');
 });
-// End //////////////////////////////////////
+// End
 
 // Group B
+<<<<<<< HEAD
 Route::get('jobs', 'Jobs\JobController@postJob')->name('jobs.postJob');
+=======
+
+Route::get('jobs','Jobs\JobController@index')->name('jobs.index');
+
+>>>>>>> 67a3a58cf9def1e5a2ec68d6df08c9f4b3f59450
 // Ends
 
 // Group C
