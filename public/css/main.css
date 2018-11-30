@@ -1,7 +1,6 @@
 body{
     background:#efefef;
 }
-
 .nopad{
     padding-right:0px!important;
     padding-left:0px!important;
@@ -11,7 +10,8 @@ body{
     margin-left:0px!important;
 }
 
-/*--Action Bar Section Start---*/
+/*---Action Bar Section Start---*/
+
 .action_bar {
     background: #12a5b0f5;
     min-width: 100%;
@@ -60,11 +60,12 @@ body{
     border: 2px solid #828175;
     border-radius: 50%;
 }
-/*--Action Bar Section End---*/
+
+/*---Action Bar Section End---*/
 
 
 
-/*------------Nav bar Start-----------*/
+/*---Nav bar Start---*/
 
 #menusection{
     padding: 3px!important;
@@ -110,7 +111,7 @@ body{
 .navbar-light .navbar-nav .show>.nav-link {
     color: rgba(255, 255, 255, 0.9)!important;
 }
-/*---OUTLINE BUTTONS---*/
+/*-OUTLINE BUTTONS-*/
 .btn {
     display: inline-block;
     padding: 6px 12px;
@@ -190,13 +191,13 @@ body{
 .btn:focus, .btn:active:focus, .btn.active:focus {
     outline: 0 none;
 }
-/*---OUTLINE BUTTONS---*/
+/*-OUTLINE BUTTONS-*/
 
 
-/*------------Nav bar End-----------*/
+/*---Nav bar End---*/
 
 
-/*------------ Banner Part Start -----------*/
+/*---- Banner Part Start ----*/
 
 .banner{
     width: 100%;
@@ -206,8 +207,7 @@ body{
     background-position: center center;
     background-image: url(../img/banner.jpg);
 }
-
-/*--Search Form Start*/
+/*--Search Form Start--*/
 .job-field input:focus{
     outline: 0;
 }
@@ -268,6 +268,9 @@ body{
     -ms-border-radius: 40px 0px 0px 40px;
     -o-border-radius: 40px 0px 0px 40px;
     border-radius: 40px 0px 0px 40px;
+}
+.job-field>.ganselect{
+    display:none;
 }
 .job-field input {
     float: left;
@@ -564,10 +567,225 @@ p a:hover {
     background: #20ccd3;
 }
 .banner_button:focus{outline: 0;}
-/*--Search Form End*/
+/*--Search Form End--*/
+/*----Banner Part End----*/
 
 
-/*------------ Banner Part Start -----------*/
+/*-----Candidate Profile page start-----*/
+/*--Avatar Section Start--*/
+
+.can_background{
+    min-height:1500px;
+    width:100%;
+    background-image:url("../img/bg1.jpg");
+    background-repeat:repeat;
+    /*background-size: cover;*/
+    background-position: center center;
+}
+.avatar-pic {
+    width: 150px;
+}
+.can_up_block {
+    background: #eeeeee4a;
+    padding: 50px;
+    margin-bottom: 30px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+.can_basic_inner_avatar_field {
+    background: ;
+    width: 100%;
+    min-height: 150px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #e0d8d8;
+}
+.avatar-view {
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 1px solid #cfd3d4f5;
+    float: left;
+}
+.uploader {
+    height:150px;
+    overflow:hidden;
+    display:flex;
+    background:;
+    padding: 20px;
+    margin: 20px;
+    flex-direction: column;
+    justify-content: center;
+    resize: vertical;
+}
+.avatar_image>img{
+max-width:100%;
+}
+.upload-btn-wrapper {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+}
+.upload-btn-wrapper>.btn {
+    border: 2px solid #e6d6c6;
+    color: gray;
+    background-color: white;
+    padding: 8px 20px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.upload-btn-wrapper input[type=file] {
+    font-size: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+}
+
+/*--Avatar Section End--*/
+
+/*--input field Start--*/
+.iwj-form-2 div.iwjmb-field{
+    margin-bottom:20px
+}
+.iwj-form-2 .iwjmb-field label{
+    color:#555;
+    padding:0 15px;
+    font-weight:bold;
+    font-size:12px;
+    text-transform:uppercase
+}
+.iwj-form-2 .iwjmb-field .description{
+    font-size:12px;
+    color:#999;
+    font-style:italic;
+    margin-top:4px
+}
+.iwj-form-2 .iwjmb-field input[type="password"], .iwj-form-2 .iwjmb-field input[type="number"], .iwj-form-2 .iwjmb-field input[type="text"], .iwj-form-2 .iwjmb-field input[type="email"], .iwj-form-2 .iwjmb-field input[type="url"], .iwj-form-2 .iwjmb-field select, .iwj-form-2 .iwjmb-field textarea{
+    border:1px solid #eee;
+    padding:6px 15px;
+    border-radius:4px;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    width:100%;
+    color:#555;
+    background:#d4d4ccf0;
+    position:relative;
+}
+.iwj-form-2 .iwjmb-field input[type="password"]::placeholder, .iwj-form-2 .iwjmb-field input[type="number"]::placeholder, .iwj-form-2 .iwjmb-field input[type="text"]::placeholder, .iwj-form-2 .iwjmb-field input[type="email"]::placeholder, .iwj-form-2 .iwjmb-field input[type="url"]::placeholder, .iwj-form-2 .iwjmb-field select, .iwj-form-2 .iwjmb-field textarea::placeholder{
+    color:#999
+}
+.iwj-form-2 .token-input.ui-autocomplete-input::placeholder{
+    color:#999;
+    font-size:13px
+}
+.iwj-form-2 .iwjmb-field input[readonly]{
+    background:#eee !important
+}
+.iwj-form-2 .iwjmb-select-tree .select2-container{
+    margin-right:5px
+}
+.iwj-form-2 .iwjmb-sort-clone div.iwjmb-field.iwjmb-textarea-wrapper{
+    width:100%
+}
+.iwj-form-2 .iwjmb-sort-clone a.iwjmb-button, .iwj-form-2 .iwjmb-sort-clone a.iwjmb-clone-icon{
+    top:50%
+}
+.iwj-form-2 .iwjmb-sort-clone div.iwjmb-field.iwjmb-textarea-wrapper textarea{
+    height:75px
+}
+
+/*!*---select issue*!*/
+.iwj-new-job .select2-container--default .select2-selection--single .select2-selection__rendered{
+    height:40px;
+    line-height:40px
+}
+.iwjmb-field .select2-container {
+    height: auto;
+    min-width: 221px;
+}
+.iwj-form-2 .select2-container {
+    width: 100%;
+}
+.iwj-profile .select2-container--default {
+    margin-right: 10px;
+}
+.select2-container {
+    box-sizing: border-box;
+    display: inline-block;
+    margin: 0;
+    position: relative;
+    vertical-align: middle;
+    min-width: 200px;
+}
+.iwj-form-2 .select2-container--default .select2-selection--single {
+    /* height: 42px; */
+    line-height: 42px;
+    border: 1px solid #eee;
+    webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    width: 100%;
+}
+.select2-container--default .select2-selection--single {
+    background-color: #fff;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+}
+.select2-container .select2-selection--single {
+    box-sizing: border-box;
+    cursor: pointer;
+    display: block;
+    height: 28px;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+/*--input field End--*/
+
+/*--Cv section Start--*/
+.cv h3{
+    font-family: Raleway;
+}
+.cvupload {
+    background: #8dadac;
+}
+/*--Cv section End--*/
+/*--Education section Start--*/
+.edu h3{
+    font-family: Raleway;
+}
+.iwjmb-input .iwjmb-button.add-clone {
+    display: inline-block;
+    background: #f5f5f5;
+    padding: 5px 20px;
+    border: 1px #eee solid;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    color: #333;
+    text-transform: uppercase;
+    margin-top: 25px;
+    height: auto;
+    box-shadow: none;
+    text-shadow: none;
+}
+/*--Education section End--*/
+.formoutside{
+    margin-bottom:45px;
+}
+
+
+
+
+
+
+
+
+
+/*--*********Candidate Profile page End********/
 
 
 

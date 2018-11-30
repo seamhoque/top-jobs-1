@@ -43,4 +43,11 @@ Route::get('employers/show', 'EmployerController@show')->name('employers.show');
 // End
 
 // Group D
+
+Route::get('/profile', function(){
+    return view('welcome/candidateprofile');
+})->name('candidateprofile');
+
+
+
 // End
