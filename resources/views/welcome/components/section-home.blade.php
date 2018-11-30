@@ -32,6 +32,17 @@
                                     </select>
                                 </div>
                             </div>
+                            <div class="col-lg-3 col-md-3 col-sm-4">
+                                <div class="job-field">
+                                    <select class="">
+                                        <option value="hide">--Location--</option>
+                                        <option value="Mecahnic">Bangladesh</option>
+                                        <option value="web development">New york</option>
+                                        <option value="car install">Libia</option>
+                                        <option value="shoes slippers">New zeland</option>
+                                    </select>
+                                </div>
+                            </div>
                             <div class="col-lg-2  col-md-3 col-sm-12">
                                 <button class="banner_button" type="submit"> <i class="fab fa-searchengin"></i> FIND JOB <i class="la la-search"></i>
                                 </button>

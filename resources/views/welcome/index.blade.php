@@ -4,23 +4,23 @@
 
 @section('content')
 
-
     <!-- Section Home -->
     @include('welcome.components.section-home')
 
     <!-- Section How it works -->
     @include('welcome.components.section-how-it-works')
 
+    <!-- Section Employer-->
+    @include('welcome.components.Section-employer-company')
+
+    <!-- Category Section-->
+    @include('welcome.components.category-section')
 
     <!-- Section Job Categories -->
-    <div class="section-home">
-        <h1>Job Categories</h1>
-    </div>
+    @include('welcome.components.career-section')
 
     <!-- Section Hot Jobs -->
-    <div class="section-home">
-        <h1>Hot Jobs</h1>
-    </div>
+    @include('welcome.components.hot-jobs')
 
 @stop
 

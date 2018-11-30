@@ -1,6 +1,7 @@
 
 /* Medium layout :1280px. */
 @media only screen and (min-width:992px) and (max-width:1200px) {
+
     /*--Action Bar start--*/
     #action_bar_right {
         text-align: center;
@@ -28,6 +29,19 @@
         padding: .5rem 5rem!important;
     }
     /*--Navbar End--*/
+
+    /*--Category Section Start--*/
+    .category {
+        width: 100%;
+        min-height: 636px;
+        background: #ffffff;
+    }
+    .container_list {
+        background: white;
+        min-height: 500px;
+        width: 100%;
+    }
+    /*--Category Section End--*/
 }
 
 
@@ -35,23 +49,25 @@
 /* Tablet layout :768px. */
 @media only screen and (min-width:768px) and (max-width:991px) {
     /*--Action Bar start--*/
-    #action_bar_left>h4 {
+    #action_bar_left > h4 {
         text-align: center;
         line-height: 1.0;
-        font-size: 13px!important;
-        font-weight: 400!important;
+        font-size: 13px !important;
+        font-weight: 400 !important;
     }
-    #action_bar_right>.social_icon>i {
-        font-weight:900;
-        color:#f6f6f6;
-        height:34px;
-        text-align:center;
-        padding:9px;
-        width:35px;
+
+    #action_bar_right > .social_icon > i {
+        font-weight: 900;
+        color: #f6f6f6;
+        height: 34px;
+        text-align: center;
+        padding: 9px;
+        width: 35px;
         background: #083c3594;
         /* padding: 11px; */
         border-radius: 50%;
     }
+
     #action_bar_right {
         text-align: center;
         height: 50px;
@@ -59,16 +75,18 @@
         background: transparent;
         position: relative;
     }
-    /*--Action Bar End--*/
 
+    /*--Action Bar End--*/
     /*--Navbar Start--*/
     .logo {
         width: 15%;
     }
+
     #menusection {
-        padding: 3px!important;
+        padding: 3px !important;
         margin-bottom: 9px;
     }
+
     .navbar {
         position: relative;
         display: -ms-flexbox;
@@ -79,21 +97,39 @@
         align-items: center;
         -ms-flex-pack: justify;
         justify-content: space-between;
-        padding: .5rem 5rem!important;
+        padding: .5rem 5rem !important;
     }
+
     /*--Navbar End--*/
-
+    /*-- How it Work Section Start --*/
     .how-to::before {
-        display:none!important;
+        display: none !important;
     }
+
     .how-to:nth-child(n+2)::before {
-        display:none!important;
+        display: none !important;
     }
+
+    /*-- How it Work Section End --*/
+    /*--Category Section Start--*/
+    .category {
+        width: 100%;
+        min-height: 610px;
+        background: #ffffff;
+    }
+
+    .container_list {
+        background: white;
+        min-height: 479px;
+        width: 100%;
+    }
+
+    /*--Category Section End--*/
+
 }
-
-
 /* Mobile layout :320px. */
 @media only screen and (max-width:767px) {
+
     /*--Action Bar start--*/
     #action_bar_left>h4 {
         text-align: center;
@@ -138,7 +174,6 @@
         width: 18%;
     }
     /*--Navbar End --*/
-
 
     /*--Banner Part Start--*/
     .portlogo{width: 15%;}
@@ -191,7 +226,7 @@
         border-radius:0px;
     }
     /*--Banner Part End--*/
-
+    /*-- How it Work Section Start --*/
     .how-to-sec {
         display: inline-block;
     }
@@ -211,6 +246,31 @@
     .how-to:nth-child(n+2)::before {
         display:none!important;
     }
+    /*-- How it Work Section End --*/
+    .container_list {
+        background: white;
+        min-height: 560px;
+        width: 100%;
+        /* margin-bottom: 9px; */
+        padding-bottom: 25px;
+    }
+
+    /*--Footer Section Start--*/
+    .foote_bottom_ul_amrc {
+        list-style-type: none;
+        padding: 0px;
+        display: none;
+        margin-top: 10px;
+        margin-right: auto;
+        margin-bottom: 10px;
+        margin-left: auto;
+    }
+    .social_footer_ul {
+        display: table;
+        list-style-type: none;
+    }
+    /*--Footer Section Start--*/
+
 }
 
 /* Wide mobile layout :480px. */
@@ -325,6 +385,7 @@
     }
     /*-- Banner Search Bar End--*/
 
+    /*-- How it Work Section Start --*/
     .how-to::before {
         position: absolute;
         left: 50%;
@@ -335,5 +396,13 @@
         content: "";
         z-index: 1;
         margin-left: 51px;
+    }
+    /*-- How it Work Section End --*/
+    .container_list {
+        background: white;
+        min-height: 560px;
+        width: 100%;
+        /* margin-bottom: 9px; */
+        padding-bottom: 25px;
     }
 }
