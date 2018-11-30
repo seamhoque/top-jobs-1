@@ -140,6 +140,58 @@
     /*--Navbar End --*/
 
 
+    /*--Banner Part Start--*/
+    .portlogo{width: 15%;}
+    .banner {
+        width: 100%;
+        height: 424px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 70%;
+        background-image: url(../img/banner.jpg);
+    }
+    .search-job2 {
+        float: left;
+        width: 100%;
+        background: rgba(255,255,255,0.3);
+        -webkit-border-radius: 60px;
+        -moz-border-radius: 60px;
+        -ms-border-radius: 60px;
+        -o-border-radius: 60px;
+        border-radius: 32px;
+        margin-top: 50px;
+        padding: 15px;
+    }
+    .search-job2 form .row > div:last-child button {
+        -webkit-border-radius: 0px 40px 40px 0px;
+        -moz-border-radius: 0px 40px 40px 0px;
+        -ms-border-radius: 0px 40px 40px 0px;
+        -o-border-radius: 0px 40px 40px 0px;
+        border-radius: 0px 0px 0px 0px;
+    }
+    .banner_button {
+        width: 100%;
+        height: 100%;
+        border: 0px solid white;
+        background: #20ccd3;
+    }
+    .banner_button {
+        width: 100%;
+        height: 100%;
+        font-family: Raleway;
+        font-weight: 600;
+        color: white;
+        font-size:15px;
+        border: 0px solid white;
+        background: #20ccd3;
+    }
+    .search-job2 form {
+        margin: 0;
+        background: #ffffff;
+        border-radius:0px;
+    }
+    /*--Banner Part End--*/
+
     .how-to-sec {
         display: inline-block;
     }
@@ -272,9 +324,6 @@
          border-radius:0px;
     }
     /*-- Banner Search Bar End--*/
-
-
-
 
     .how-to::before {
         position: absolute;

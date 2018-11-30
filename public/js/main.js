@@ -5,11 +5,11 @@ $('select').each(function(){
     $this.addClass('select-hidden');
     $this.wrap('<div class="select"></div>');
     $this.after('<div class="select-styled"></div>');
-
+//     //
     var $styledSelect = $this.next('div.select-styled');
     $styledSelect.text($this.children('option').eq(0).text());
 
-    var $list = $('<ul />', {
+    var $list = $('<ul/>', {
         'class': 'select-options'
     }).insertAfter($styledSelect);
 
@@ -44,3 +44,4 @@ $('select').each(function(){
     });
 
 });
+

@@ -32,4 +32,11 @@ Route::get('employers', 'EmployerController@index')->name('employers.index');
 // End
 
 // Group D
+
+Route::get('/profile', function(){
+    return view('welcome/candidateprofile');
+})->name('candidateprofile');
+
+
+
 // End

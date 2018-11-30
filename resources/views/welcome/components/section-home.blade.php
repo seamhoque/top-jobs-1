@@ -4,7 +4,7 @@
         <div class="row">
             <!--Logo Rotating Start-->
             <div class="col-lg-2">
-                <img src="img/logoo.png" alt="">
+                <img class="portlogo" src="img/logoo.png" alt="">
             </div>
             <!--Logo Rotating End-->
         </div>

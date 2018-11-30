@@ -36,7 +36,7 @@
                         <ul id="settings" class="nav navbar-nav flex-row justify-content-between">
                             <li class="nav-item order-2 order-md-2"><a href="#" class="nav-link" title="settings"><i class="fa fa-cog fa-fw fa-lg"></i></a></li>
                             <li class="dropdown order-1">
-                                <button type="button" id="dropdownMenu1" data-toggle="dropdown" class="btn btn-outline-secondary dropdown-toggle">Login <span class="caret"></span></button>
+                                <button type="button" id="" data-toggle="dropdown" class="btn btn-outline-secondary">Login <span class="caret"></span></button>
                                 <ul class="dropdown-menu dropdown-menu-right mt-2">
                                     <li class="px-3 py-2">
                                         <form class="form" role="form">
@@ -59,23 +59,7 @@
                         </ul>
                     </div>
                 </nav>
-                <div id="modalPassword" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h3>Forgot password</h3>
-                                <button type="button" class="close font-weight-light" data-dismiss="modal" aria-hidden="true">×</button>
-                            </div>
-                            <div class="modal-body">
-                                <p>Reset your password..</p>
-                            </div>
-                            <div class="modal-footer">
-                                <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
-                                <button class="btn btn-primary">Save changes</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+
             </div>
         </div>
     </div>
